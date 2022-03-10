@@ -66,8 +66,8 @@ nav a:hover{
     border-radius: 5px;
 }
 main{
-    width: 70vw;
-    min-width: 270px;
+    width: 100%;
+    min-width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
