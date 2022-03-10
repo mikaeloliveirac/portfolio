@@ -28,7 +28,9 @@ html{
 }
 
 body{
+    margin: 0;
     width: 100vw;
+ 
 
 }
 
@@ -73,7 +75,6 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: auto;
    box-shadow: 2px 3px 10px black;
     padding: 50px;
 }
