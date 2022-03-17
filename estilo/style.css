@@ -29,15 +29,15 @@ html{
 
 body{
     margin: 0;
-    width: 100vw;
+    overflow-x: hidden;
  
 
 }
 
 header{
     display: flex;
+    width: 100%;
     background-color: var(--cor0);
-    width: 100vw;
     color: white;
     height: 100px;
     justify-content: center;
@@ -49,7 +49,6 @@ header{
 
 nav{
     background-color: var(--cor0);
-    width: 100vw;
     font-family: var(--font-destaque);
     word-spacing: 10px;
     
@@ -69,7 +68,6 @@ nav a:hover{
     border-radius: 5px;
 }
 main{
-    width: 100vw;
     min-width: 300px;
     display: flex;
     justify-content: center;
@@ -116,15 +114,12 @@ align-items: center;
     border-radius: 10px;
     font-family: var(--font-padrão);
     box-shadow: 5px 5px 10px black;
-    text-align: center;
+    text-align: left;
     margin-top: 5vh;
    
     
 }
-.sobre p::first-letter{
-    font-size: 5vh;
-    font-weight: bold;
-}
+
 
 .sobre img{
     background-color: white;
